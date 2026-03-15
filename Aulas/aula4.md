@@ -20,11 +20,17 @@ A seguir estão exemplos de sistemas operacionais que utilizam outros sistemas c
 
 ## Ubuntu
 
-<!-- IMAGEM DO UBUNTU -->
+<div style="display: flex; justify-content: center">
+<img src= "https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg" width= 250>
+</div>
 
 - **Sistema Operacional:** Ubuntu  
 - **Sistema Base:** Debian  
-- **Tipo de Kernel:** Linux  
+- **Tipo de Kernel:** Linux 
+<div style="display: flex; justify-content: center"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Desktop_Ubuntu_20.04.png" width=320>
+</div>
+
 - **Principais Características:**  
   - Distribuição Linux popular para desktops e servidores  
   - Interface amigável e fácil de usar  
@@ -38,11 +44,17 @@ A seguir estão exemplos de sistemas operacionais que utilizam outros sistemas c
 
 ## macOS
 
-<!-- IMAGEM DO macOS -->
+<div style="display: flex; justify-content: center">
+<img src= "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width= 250>
+</div>
 
 - **Sistema Operacional:** macOS  
 - **Sistema Base:** Unix / BSD (Darwin)  
-- **Tipo de Kernel:** XNU (kernel híbrido baseado em Mach + BSD)  
+- **Tipo de Kernel:** XNU (kernel híbrido baseado em Mach + BSD)
+<div style="display: flex; justify-content: center"> 
+<img src="https://www.pngall.com/wp-content/uploads/20/iPhone-17-Pro-Max-Concept-Art-PNG.png" width=320>
+</div>
+  
 - **Principais Características:**  
   - Sistema operacional desenvolvido pela Apple  
   - Interface gráfica própria e altamente integrada  
@@ -56,7 +68,9 @@ A seguir estão exemplos de sistemas operacionais que utilizam outros sistemas c
 
 ## Android
 
-<!-- IMAGEM DO ANDROID -->
+<div style="display: flex; justify-content: center">
+<img src= "https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" width= 250>
+</div>
 
 - **Sistema Operacional:** Android  
 - **Sistema Base:** Linux  
@@ -74,11 +88,16 @@ A seguir estão exemplos de sistemas operacionais que utilizam outros sistemas c
 
 ## Xbox 360
 
-<!-- IMAGEM DO XBOX 360 -->
+<div style="display: flex; justify-content: center">
+<img src= "https://cdn.worldvectorlogo.com/logos/xbox-360-1.svg" width= 250>
+</div>
 
 - **Sistema Operacional:** Xbox 360 OS  
 - **Sistema Base:** Windows NT (adaptado)  
 - **Tipo de Kernel:** Kernel personalizado derivado do NT  
+  <div style= "display: flex; justify-content: center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Xbox_360_Models.png" width=300>
+  </div>
 - **Principais Características:**  
   - Sistema desenvolvido pela Microsoft para o console Xbox 360  
   - Otimizado para jogos e multimídia  
@@ -92,11 +111,18 @@ A seguir estão exemplos de sistemas operacionais que utilizam outros sistemas c
 
 ## Xbox One / Xbox Series
 
-<!-- IMAGEM DO XBOX ONE OU SERIES -->
+<div style="display: flex; justify-content: center; gap: 35px">
+<img src= "https://www.svgrepo.com/show/303136/xbox-one-logo.svg" width= 250>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Xbox_Series_X_logo.svg/3840px-Xbox_Series_X_logo.svg.png" width= 250>
+</div>
 
 - **Sistema Operacional:** Xbox OS  
 - **Sistema Base:** Windows 10 (Windows NT)  
-- **Tipo de Kernel:** Windows NT modificado  
+- **Tipo de Kernel:** Windows NT modificado
+<div style="display: flex; justify-content: center"> 
+<img src="https://t.ctcdn.com.br/vIV8mcgB4lNpVZioboFqUC_kBMk=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i413842.png" width=250>
+</div>
+
 - **Principais Características:**  
   - Sistema utilizado nos consoles Xbox One e Xbox Series X/S  
   - Arquitetura baseada em múltiplos sistemas virtuais  
