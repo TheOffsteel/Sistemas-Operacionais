@@ -143,6 +143,14 @@ A aula apresentou:
 - As formas de avaliação;
 - As atividades iniciais;
 - A importância do estudo dos Sistemas Operacionais.
+  
+---
+
+## Linha do Tempo dos Sistemas Operacionais
+
+A imagem abaixo resume a evolução dos principais sistemas operacionais ao longo das décadas:
+
+![Linha do tempo](../Assets/tl.jpg)
 
 ---
 
