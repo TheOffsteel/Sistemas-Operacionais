@@ -1,31 +1,134 @@
-# Resumo: Conceitos e Tipos de Sistemas Operacionais
+# Aula 03 - Conceitos, Funções e Tipos de Sistemas Operacionais
 
-## 📖 Classificação de Sistemas
-| Tipo | Foco Principal | Exemplo de Uso |
-| :--- | :--- | :--- |
-| **Mainframes** | Alto volume de E/S e transações | Bancos e Varejo |
-| **Servidores** | Compartilhamento de recursos em rede | Web e Banco de Dados |
-| **Multiprocessadores** | Processamento paralelo e núcleos | Scientific Computing |
-| **Pessoais** | Interface gráfica e usabilidade | Windows, macOS, Linux |
-| **Tempo Real** | Cumprimento rigoroso de prazos | Controle de voo (Hard RT) |
-| **Embarcados** | Dispositivos dedicados (ROM/Flash) | Smart TVs e Automotivo |
-| **Smart Cards** | Segurança e isolamento por applets | Cartões bancários |
+## 📌 Introdução aos Sistemas Operacionais
+Sistema Operacional (SO) é o software responsável por gerenciar o hardware e fornecer serviços para programas.
 
-## 🚀 Versionamento com Git
-O Git é um sistema distribuído que registra o histórico de mudanças de um projeto.
+- Atua como intermediário entre usuário e hardware
+- Gerencia recursos: CPU, memória, disco e dispositivos
 
-### Comandos Essenciais (Terminal)
-- `git --version`: Verifica se o Git está instalado.
-- `git config --global user.name "Seu Nome"`: Define seu nome de autor.
-- `git config --global user.email "seu@email.com"`: Define seu e-mail de autor.
-- `git clone <url>`: Copia um repositório remoto para sua máquina local.
+---
 
-### Ciclo de Trabalho no VS Code
-1. **Inicializar**: Transforma uma pasta em repositório Git.
-2. **Commit**: Salva uma "foto" do estado atual dos arquivos com uma mensagem descritiva.
-3. **Publish/Push**: Sincroniza suas alterações locais com o servidor (GitHub).
+## 🖥️ Tipos de Sistemas Operacionais
 
-## 📝 Atividades Propostas
-- Configurar a integração IDE-GitHub.
-- Praticar o ciclo de `commit` -> `push` -> `delete local` -> `git clone`.
-- Analisar 5 repositórios de terceiros no GitHub para entender diferentes estruturas de projeto.
+### 🏢 Sistemas de Grande Porte (Mainframes)
+- Alto desempenho e processamento massivo
+- Suporte a muitos usuários simultâneos
+- Uso: bancos, e-commerce, grandes empresas
+
+**Características:**
+- Alta confiabilidade
+- Processamento em lote e transações (TPS)
+- Segurança elevada
+
+---
+
+### 🌐 Sistemas Operacionais de Servidor
+- Atendem múltiplos usuários via rede
+- Serviços: web, arquivos, banco de dados
+
+**Exemplos:**
+- Linux
+- Windows Server
+
+**Foco:** estabilidade, escalabilidade e compartilhamento
+
+---
+
+### ⚙️ Sistemas Multiprocessadores
+- Utilizam múltiplas CPUs ou núcleos
+- Execução paralela
+
+**Desafios:**
+- Escalonamento de processos
+- Sincronização (locks, semáforos)
+- Coerência de cache
+
+---
+
+### 💻 Sistemas de Computadores Pessoais
+- Uso individual
+- Interface gráfica
+- Suporte a múltiplos programas
+
+**Exemplos:**
+- Windows
+- macOS
+- Linux
+
+---
+
+### 📱 Sistemas Operacionais Portáteis (Mobile)
+- Foco em dispositivos móveis
+
+**Características:**
+- Gerenciamento de energia
+- Suporte a sensores (GPS, câmera)
+- Segurança por permissões
+
+**Exemplos:**
+- Android
+- iOS
+
+---
+
+### 🔌 Sistemas Embarcados
+- Dispositivos dedicados com poucos recursos
+
+**Exemplos:**
+- Micro-ondas
+- Smart TVs
+- Sistemas automotivos
+
+**Características:**
+- Baixo consumo
+- Software em ROM/flash
+- Pouca interação do usuário
+
+---
+
+### 📡 Sistemas de Nós Sensores
+- Dispositivos pequenos e com bateria limitada
+
+**Uso:**
+- Monitoramento ambiental
+- Agricultura
+- Aplicações militares
+
+---
+
+### ⏱️ Sistemas de Tempo Real
+
+- **Hard Real-Time:** falhas são críticas (ex: aviões)
+- **Soft Real-Time:** atrasos são toleráveis (ex: streaming)
+
+---
+
+### 💳 Sistemas de Cartões Inteligentes
+- Recursos limitados
+- Alta segurança (criptografia)
+- Execução de pequenos programas (applets)
+
+---
+
+## 🔧 Introdução ao Git
+
+### O que é?
+- Sistema de controle de versão
+
+### Funções:
+- Armazenar histórico de alterações
+- Permitir retorno a versões anteriores
+- Sincronizar com repositórios online (GitHub)
+
+---
+
+## ⚙️ Uso do Git (Resumo)
+
+### Instalação:
+- Baixar em: git-scm.com
+- Verificar com: `git --version`
+
+### Configuração:
+```bash
+git config --global user.name "Nome"
+git config --global user.email "Email"

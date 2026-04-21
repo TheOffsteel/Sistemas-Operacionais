@@ -1,4 +1,123 @@
-# Estrutura e Arquitetura de Sistemas Operacionais  
+# Aula 04 - Estrutura e Arquitetura de Sistemas Operacionais
+
+## 📌 Componentes do Sistema Operacional
+
+O Sistema Operacional é composto por módulos responsáveis por gerenciar os recursos do sistema:
+
+- **Kernel:** núcleo do sistema
+- **Gerenciamento de processos:** controle da execução de programas
+- **Gerenciamento de memória:** alocação e proteção
+- **Sistema de arquivos:** organização dos dados
+- **Entrada/Saída (I/O):** comunicação com dispositivos
+- **Drivers:** interface entre hardware e software
+
+---
+
+## 🧠 Kernel (Núcleo do Sistema)
+
+Responsável pelas funções críticas:
+
+- Gerenciamento de processos e threads  
+- Controle de memória (física e virtual)  
+- Controle de dispositivos  
+- Comunicação hardware ↔ software  
+- Segurança e proteção  
+
+---
+
+## 🔐 Modos de Execução
+
+- **Modo Usuário:**  
+  - Aplicações comuns  
+  - Acesso limitado ao hardware  
+
+- **Modo Kernel:**  
+  - Acesso total ao hardware  
+  - Execução de operações críticas  
+
+- **System Call:**  
+  - Ponte entre usuário e kernel  
+  - Permite que programas solicitem serviços ao SO  
+
+➡️ Garante segurança e estabilidade do sistema
+
+---
+
+## ⚙️ Processos
+
+Um **processo** é um programa em execução.
+
+**Componentes:**
+- Código (text)
+- Dados
+- Pilha (stack)
+- Registradores da CPU
+- Recursos (arquivos abertos)
+
+---
+
+## 💾 Memória e Espaço de Endereçamento
+
+- Cada processo possui seu próprio espaço de memória
+- O SO gerencia:
+  - Alocação
+  - Proteção
+  - Isolamento entre processos
+
+---
+
+## 📁 Sistema de Arquivos
+
+- Estrutura hierárquica (pastas/diretórios)
+- Permite:
+  - Organização de dados
+  - Acesso eficiente
+  - Gerenciamento de armazenamento
+
+---
+
+## 🔌 Entrada/Saída e Drivers
+
+Dispositivos controlados pelo SO:
+
+- Teclado
+- Mouse
+- Disco
+- Rede
+- Impressora
+
+**Drivers:**
+- Traduzem comandos do SO para o hardware
+- Abstraem a complexidade dos dispositivos
+
+---
+
+## 🔄 Reaproveitamento de Estrutura
+
+A maioria dos sistemas não é criada do zero:
+
+**Vantagens:**
+- Redução de custo
+- Maior estabilidade
+- Reutilização de tecnologias
+- Atualizações contínuas
+
+**Exemplos:**
+- Raspberry Pi OS → baseado em Debian (Linux)
+- Orbis OS (PS4) → baseado em FreeBSD
+
+---
+
+## 📝 Ponte para Atividade
+
+A atividade proposta nesta aula tem como objetivo aplicar o conceito de **reaproveitamento de estrutura em sistemas operacionais**, analisando como diferentes sistemas foram construídos a partir de outros já existentes.
+
+A seguir, está o desenvolvimento completo da atividade, incluindo:
+- Identificação dos sistemas operacionais e suas bases  
+- Comparação entre eles  
+- Análise das diferenças estruturais e funcionais  
+
+➡️ **Continuação: Desenvolvimento da Atividade**# Estrutura e Arquitetura de Sistemas Operacionais  
 ## Atividade – Sistemas Operacionais Baseados em Outros
 
 ## 1. Introdução
