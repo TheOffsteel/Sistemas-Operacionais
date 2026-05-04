@@ -195,17 +195,131 @@ Inclui:
    * Deploy
    * Testes
    * Conclusões
+  
+---
+
+# 📘 Manual de Implantação e Análise: Nuvem e Sistemas Operacionais
+
+Este documento descreve o processo de criação, implantação e análise de uma aplicação web desenvolvida em Node.js com Express.js, nomeada `cloud-so-app`. O objetivo principal é extrair e exibir informações do sistema operacional, documentando as diferenças entre a execução em um ambiente local e em um ambiente de nuvem (Render).
 
 ---
 
-## 🧠 Conclusão
+## 🛠️ 1. Instalação das Ferramentas
 
-A computação em nuvem está diretamente ligada aos conceitos de Sistemas Operacionais, especialmente:
+Para o desenvolvimento local, foram utilizadas as seguintes ferramentas:
 
-* Gerenciamento de recursos
+* **Node.js e npm:** Plataforma de execução e gerenciador de pacotes para rodar JavaScript no backend
+* **Visual Studio Code (VS Code):** Editor de código-fonte utilizado no desenvolvimento
+* **Git:** Sistema de controle de versão para gerenciar o código e enviá-lo ao GitHub
+
+---
+
+## 💻 2. Criação do Projeto e Desenvolvimento da Aplicação
+
+A aplicação foi criada para exibir dados do sistema, como:
+
+* Nome do host
+* Plataforma
+* Arquitetura
+* Quantidade de CPUs
+* Memória total
+* Memória livre
+* Tempo de atividade (uptime)
+
+### Passos de Criação:
+
+1. Criação do diretório `cloud-so-app` e abertura no VS Code
+2. Inicialização do projeto Node.js
+3. Instalação das dependências:
+
+   ```bash
+   npm install express
+   npm install cors express
+   ```
+4. Desenvolvimento do arquivo `index.js` utilizando o módulo interno `os` do Node.js
+
+### ▶️ Teste Local
+
+A aplicação foi executada com:
+
+```bash
+node index.js
+```
+
+Ao acessar `http://localhost:3000`, os dados do sistema operacional da máquina local foram exibidos corretamente no navegador.
+
+---
+
+## ☁️ 3. Publicação no Render
+
+Para simular o ambiente de nuvem, a aplicação foi publicada no Render, uma plataforma de hospedagem que suporta aplicações Node.js.
+
+### Passos do Deploy:
+
+1. Versionamento do projeto com Git e envio para um repositório no GitHub
+2. Criação de um novo **Web Service** no painel do Render
+3. Conexão do repositório GitHub ao Render
+4. Configuração do comando de inicialização:
+
+   ```bash
+   node index.js
+   ```
+5. Execução do deploy e disponibilização do serviço online
+
+---
+
+## 🔍 4. Testes e Comparações entre Ambientes
+
+A seguir, uma comparação entre o ambiente local e o ambiente em nuvem:
+
+| Informação do SO | Ambiente Local (Meu PC) | Ambiente Cloud (Render) |
+| :--------------- | :---------------------- | :---------------------- |
+| Hostname         | DESKTOP-XXXXX           | render-xxx-yyy          |
+| Plataforma       | win32 / linux / darwin  | linux                   |
+| Arquitetura      | x64                     | x64                     |
+| CPUs             | 8                       | 1 ou 2                  |
+| Memória Total    | 16384 MB                | 512 MB (aprox.)         |
+| Memória Livre    | 4096 MB                 | 128 MB (aprox.)         |
+
+### 🧠 Análise
+
+Observa-se que o ambiente em nuvem possui recursos mais limitados em comparação ao ambiente local. Isso ocorre devido ao modelo de compartilhamento de recursos, onde a infraestrutura é dividida entre múltiplos usuários.
+
+---
+
+## ⚙️ 5. Análise Técnica: Conceitos de Sistemas Operacionais
+
+Com base na aplicação e nos dados obtidos, é possível relacionar os seguintes conceitos:
+
+### 🔹 Processos
+
+Ao executar `node index.js`, o sistema operacional cria um processo responsável pela execução da aplicação. No ambiente de nuvem, esse processo é executado de forma isolada.
+
+### 🔹 Gerenciamento de Memória e CPU
+
+No ambiente local, os dados refletem o hardware físico real. Já na nuvem, os recursos são virtualizados e limitados conforme a alocação feita pelo provedor.
+
+### 🔹 Virtualização
+
+Na nuvem, existe uma camada de virtualização que divide servidores físicos em múltiplas instâncias isoladas. A aplicação roda sobre um sistema operacional virtualizado, geralmente Linux.
+
+### 🔹 Computação em Nuvem
+
+O uso do Render caracteriza o modelo **PaaS (Plataforma como Serviço)**, onde o desenvolvedor se preocupa apenas com o código, enquanto a infraestrutura é gerenciada pela plataforma.
+
+---
+
+## 🧾 6. Conclusões Finais
+
+A atividade permitiu compreender, na prática, a relação entre aplicações e o sistema operacional, especialmente no acesso a recursos de hardware.
+
+A migração do ambiente local para a nuvem evidenciou conceitos importantes como:
+
+* Abstração de hardware
 * Virtualização
-* Processos e memória
+* Compartilhamento de recursos
+* Escalabilidade sob demanda
 
-Ela possibilita **alta escalabilidade, flexibilidade e redução de custos**, sendo essencial para sistemas modernos.
+Também foi possível observar como a computação em nuvem otimiza o uso de infraestrutura ao distribuir recursos entre múltiplos usuários de forma eficiente.
 
 ---

@@ -538,6 +538,14 @@ e integração global.
 
 ---
 
+## Atividade: Linha do Tempo Parte 2
+
+Conclusão direta da Atividade de Linha do Tempo das Gerações e SOs ao longo das décadas abaixo:
+
+![Linhadotempo](../Assets/Linha%20do%20Tempo%20SOpt2.jpg)
+
+---
+
 ## ✅ Conclusão
 
 Essa geração representa
