@@ -248,6 +248,8 @@ node index.js
 
 Ao acessar `http://localhost:3000`, os dados do sistema operacional da máquina local foram exibidos corretamente no navegador.
 
+![localhostprint](../Assets/host.png)
+
 ---
 
 ## ☁️ 3. Publicação no Render
@@ -266,6 +268,12 @@ Para simular o ambiente de nuvem, a aplicação foi publicada no Render, uma pla
    ```
 5. Execução do deploy e disponibilização do serviço online
 
+![renderdash](../Assets/renderdash.png)
+
+![renderprint](../Assets/render.png)
+
+https://soproject.onrender.com/
+
 ---
 
 ## 🔍 4. Testes e Comparações entre Ambientes
@@ -275,7 +283,7 @@ A seguir, uma comparação entre o ambiente local e o ambiente em nuvem:
 | Informação do SO | Ambiente Local (Meu PC) | Ambiente Cloud (Render) |
 | :--------------- | :---------------------- | :---------------------- |
 | Hostname         | DESKTOP-XXXXX           | render-xxx-yyy          |
-| Plataforma       | win32 / linux / darwin  | linux                   |
+| Plataforma       | win32 /                 | linux                   |
 | Arquitetura      | x64                     | x64                     |
 | CPUs             | 8                       | 1 ou 2                  |
 | Memória Total    | 16384 MB                | 512 MB (aprox.)         |
