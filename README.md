@@ -30,7 +30,6 @@ As pastas presentes neste repositório incluem:
 - Express.js
 - GitHub
 - Render
-- Railway
 - Markdown
 
 ## 🎓 Instituição
