@@ -486,8 +486,6 @@ A aplicação atualiza automaticamente os dados a cada 5 segundos, funcionando c
 
 # 📸 Evidência do Deploy no Render
 
-> Inserir abaixo o print da aplicação executando no Render.
-
 ![Deploy Render](../Assets/RenderDeploy.png)
 
 ---
@@ -528,7 +526,6 @@ Isso ocorre porque a plataforma utiliza arquitetura serverless, executando funç
 
 # 📸 Evidência do Deploy no Vercel
 
-> Inserir abaixo o print da aplicação executando na Vercel.
 
 ![Deploy Vercel](../Assets/VercelDeploy.png)
 
