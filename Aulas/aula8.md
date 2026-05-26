@@ -433,16 +433,159 @@ Controle de versão e integração contínua.
 
 ---
 
-# ✅ Conclusão
+---
 
-A aula integra conceitos de desenvolvimento backend com computação em nuvem e sistemas operacionais.
+# ☁️ Atividade Prática — Deploy em Cloud Computing
 
-Os alunos aprendem a:
+Após o desenvolvimento da aplicação utilizando Node.js e Express, foi realizado o deploy do sistema em plataformas de computação em nuvem, permitindo executar a aplicação em ambiente remoto de produção.
 
-- Criar APIs REST;
-- Hospedar aplicações reais;
-- Monitorar recursos do sistema;
-- Trabalhar com cloud computing;
-- Entender diferenças entre execução local e remota.
+O objetivo da atividade foi compreender na prática conceitos relacionados a:
 
-Além disso, o projeto aproxima os conceitos acadêmicos de cenários reais utilizados no mercado de tecnologia, especialmente em áreas como DevOps, backend e infraestrutura cloud.
+- computação em nuvem;
+- hospedagem de aplicações;
+- infraestrutura remota;
+- virtualização;
+- monitoramento de sistemas;
+- deploy automatizado;
+- execução de aplicações backend em ambiente Linux cloud.
+
+---
+
+# 🚀 Deploy no Render
+
+O primeiro deploy foi realizado utilizando a plataforma Render, através da integração com um repositório GitHub.
+
+## 📌 Processo realizado
+
+1. Upload do projeto no GitHub;
+2. Criação de um Web Service no Render;
+3. Configuração do ambiente Node.js;
+4. Definição do comando de inicialização;
+5. Publicação automática da aplicação.
+
+---
+
+# 🖥️ Informações Obtidas no Deploy Render
+
+Durante a execução da aplicação hospedada no Render, foi possível visualizar informações do sistema operacional em tempo real.
+
+## 📊 Dados exibidos
+
+- Hostname do servidor;
+- Plataforma Linux;
+- Arquitetura x64;
+- Quantidade de CPUs;
+- Uptime do sistema;
+- Memória RAM total;
+- Uso de memória em tempo real;
+- Status do ambiente cloud.
+
+A aplicação atualiza automaticamente os dados a cada 5 segundos, funcionando como um dashboard de monitoramento do sistema operacional.
+
+---
+
+# 📸 Evidência do Deploy no Render
+
+> Inserir abaixo o print da aplicação executando no Render.
+
+![Deploy Render](../Assets/RenderDeploy.png)
+
+---
+
+# ☁️ Deploy no Vercel
+
+Também foi realizado um deploy experimental utilizando a plataforma Vercel, conhecida principalmente pela hospedagem de aplicações frontend e projetos utilizando Next.js.
+
+---
+
+# 📌 Processo realizado
+
+1. Conexão do repositório GitHub com a Vercel;
+2. Detecção automática do projeto;
+3. Configuração do ambiente Node.js;
+4. Build automático da aplicação;
+5. Publicação em ambiente cloud.
+
+---
+
+# 🖥️ Informações Obtidas no Deploy Vercel
+
+A aplicação conseguiu executar parcialmente na Vercel, porém algumas funcionalidades relacionadas ao monitoramento contínuo do sistema operacional apresentaram limitações.
+
+Isso ocorre porque a plataforma utiliza arquitetura serverless, executando funções sob demanda.
+
+---
+
+# 📊 Dados exibidos
+
+- Ambiente Linux;
+- Execução Node.js;
+- Informações básicas do sistema;
+- Inicialização da API;
+- Execução parcial do monitoramento.
+
+---
+
+# 📸 Evidência do Deploy no Vercel
+
+> Inserir abaixo o print da aplicação executando na Vercel.
+
+![Deploy Vercel](../Assets/VercelDeploy.png)
+
+---
+
+# 📊 Comparação Entre Render e Vercel
+
+| Característica | Render | Vercel |
+|---|---|---|
+| Tipo principal de uso | Backend + APIs | Frontend + aplicações web |
+| Suporte Node.js | Completo | Limitado para APIs persistentes |
+| Execução contínua | Sim | Não totalmente persistente |
+| Ideal para monitoramento SO | Sim | Parcial |
+| Deploy automático | Sim | Sim |
+| Infraestrutura | Containers Linux | Serverless |
+| Uptime contínuo | Sim | Limitado |
+| Melhor uso | APIs REST e microsserviços | Frontend React/Next.js |
+
+---
+
+# ⚠️ Limitações Encontradas na Vercel
+
+Durante os testes, observou-se que a Vercel possui limitações para aplicações de monitoramento contínuo de sistema operacional.
+
+Isso ocorre porque a plataforma utiliza principalmente arquitetura serverless, onde as funções são executadas sob demanda, não permanecendo ativas continuamente como no Render.
+
+Dessa forma:
+
+- monitoramento em tempo real fica limitado;
+- processos persistentes não funcionam adequadamente;
+- leitura contínua de métricas do sistema operacional é reduzida.
+
+---
+
+# ✅ Resultado Obtido
+
+O Render apresentou melhor compatibilidade com a proposta da atividade, permitindo:
+
+- execução contínua da aplicação;
+- monitoramento em tempo real;
+- acesso constante às métricas do sistema;
+- funcionamento estável do backend Node.js.
+
+Já a Vercel demonstrou melhor adequação para aplicações frontend e projetos focados em interfaces web estáticas ou frameworks como Next.js.
+
+---
+
+# 🎯 Conclusão
+
+A atividade permitiu compreender diferenças práticas entre plataformas modernas de computação em nuvem.
+
+O deploy realizado demonstrou conceitos importantes estudados na disciplina de Sistemas Operacionais, como:
+
+- virtualização;
+- infraestrutura remota;
+- gerenciamento de recursos;
+- monitoramento do sistema;
+- execução de processos em ambiente Linux cloud.
+
+Além disso, a comparação entre Render e Vercel mostrou que diferentes plataformas possuem objetivos distintos e comportamentos específicos dependendo do tipo de aplicação hospedada.
